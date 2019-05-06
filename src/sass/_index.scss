@@ -9,7 +9,7 @@ header{
 
     .banner{
         position: relative;
-        background-image:url('/src/assets/images/home/banner-home.jpg') ;
+        background-image:url('../images/home/banner-home.jpg') ;
         padding-bottom: 21.8em!important;
         background-repeat: no-repeat;
         background-position: top center;
@@ -126,7 +126,7 @@ header{
 
 #branco{
     position: relative;
-    background-image:url('/src/assets/images/home/img1.png') ;
+    background-image:url('../images/home/img1.png') ;
     margin-top:  5em;
     background-repeat: no-repeat;
     background-position: top center;
@@ -242,17 +242,19 @@ footer{
     header{
 
         .banner{
-            padding-bottom: 31.7em!important;
+            padding-bottom: 25.7em!important;
 
             .navegacao{
                 position: relative!important;
                 display: block!important;
                 width: 100%!important;
                 
-
+                .menu{
+                    padding-left: 1.312em!important;
+                }
                 .navbar{
                     position: absolute;
-                    padding-left: 2.4em!important;
+                    padding-left: 1.4em!important;
                     z-index: 2!important;
                     overflow: hidden!important;
                 }
@@ -271,11 +273,12 @@ footer{
                 }
 
                 .contorno{
-                    padding-top: 0!important;
+                    display: none;
                 }
                 
                 .texto-banner{
                     h1{
+                        padding-top:14em!important;
                         font-size: 30px!important;
                     }
                 }
@@ -289,6 +292,7 @@ footer{
             padding-bottom: 8.3125em!important;
 
             p{
+                padding-left: 2em!important;
                 font-size: 15px!important;
             }
         }
@@ -296,16 +300,17 @@ footer{
 
     #branco{
         .texto-branco{
-            padding-left: 0!important;
+            padding-left: 2em!important;
             padding-right: 0!important;
             font-size: 12px!important;
             padding-top: 15em!important;
         }
 
         .paragra2{
-            padding-top: 20em!important;
+            padding-top: 10em!important;
+            padding-left: 2em!important;
             p{
-                font-size: 12px!important;
+                font-size: 9px!important;
 
                 .texto-blue{
                     font-size: 18px!important;
@@ -321,6 +326,10 @@ footer{
     footer{
         .row{
             flex-wrap: nowrap!important;
+        }
+
+        .menu{
+            padding-left: 1.312em!important;
         }
     }
 

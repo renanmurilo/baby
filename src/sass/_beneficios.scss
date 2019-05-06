@@ -4,7 +4,7 @@ header{
 
     .banner-beneficios{
         position: relative;
-        background-image:url('/src/assets/images/beneficios/banner.png') ;
+        background-image:url('../images/beneficios/banner.png') ;
         background-repeat: no-repeat;
         background-position: top right;
         display: flex;
@@ -195,17 +195,19 @@ header{
     header{
 
         .banner-beneficios{
-            padding-bottom: 8.4em!important;
+            padding-bottom: 12.4em!important;
 
             .navegacao{
                 position: relative!important;
                 display: block!important;
                 width: 100%!important;
                 
-
+                .menu{
+                    padding-left: 1.312em!important;
+                }
                 .navbar{
                     position: absolute;
-                    padding-left: 2.4em!important;
+                    padding-left: 1.4em!important;
                     z-index: 2!important;
                     overflow: hidden!important;
                 }
@@ -228,7 +230,8 @@ header{
                 }
                 
                 .texto-banner-beneficios{
-                    padding-top: 30em!important;
+                    padding-top: 26em!important;
+                    padding-left: 2em!important;
                     h1{
                         font-size: 20px!important;
                     }
