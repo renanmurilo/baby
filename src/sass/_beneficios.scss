@@ -11,74 +11,7 @@ header{
         overflow: hidden;
         width: 100%;
 
-        .navegacao{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            
-    
-            .menu{
-                padding-top: 2.925em;
-                padding-left: 4.312em;
-    
-        
-                td{
-                    border: 1px solid #2adae6;
-                    color: #2adae6;
-                    padding: 7px 14px;
-                    padding-top: 4px;
-                 
-                }
-            }
-        
-            .navbar-toggler{
-                border: 1px solid #2adae6;
-        
-                .navbar-toggler-icon{
-                    display: block;
-                    width: 30px;
-                    height: 2px;
-                    background-color: #2adae6;
-                    margin: 6px 0;
-                }
-            }
-            .navbar{
-                .dropdown-menu.show{
-                    margin-left: 0.7em;
-                    border-radius: 0px;
-                    background: #2adae6;
-                    min-width: 19em;
-
-                    .dropdown-item{
-                        color: #ffffff;
-                    }
-
-                    .dropdown-item:hover, .dropdown-item:focus{
-                        background-color: transparent;
-                    }
-                }
-            }
-
-            .navbar-nav{
-        
-                .nav-link{
-                    color: #2adae6;
-                    font-size: 16.97px;
-                    padding-top: 3.125em;
-                    padding-left: 2.125em;
-                }
-            }
-        
-            .navbar-text{
-                padding-top: 3em;
-                padding-right: 6.875em;
-                
-                img{
-                    margin-left: 17px;
-                }
-                
-            }
-        }
+    }
     
 
         .contorno-beneficios{
@@ -96,8 +29,7 @@ header{
                 font-size: 36px;
                 font-weight: normal;
             }
-        }
-    }    
+        } 
 }
 
 #blue-beneficios{
@@ -152,30 +84,28 @@ header{
 
 @media screen and (max-width: 1367px){
     header{
-        .banner-beneficios{
 
-            .navegacao{
-                .navbar-text{
-                    padding-right: 0!important;
-                }
+        .navegacao{
+            .navbar-text{
+                padding-right: 0!important;
+            }
 
-                .menu{
-                    padding-left: 2.312em!important;
-                }
-    
-                .nav-link{
-                    padding-left: 1em!important;
-                }
-                
-                .texto-banner-beneficios{
-                    padding-left: 5em;
-                    padding-bottom: 10em;
-                }
+            .menu{
+                padding-left: 2.312em!important;
             }
-            .contorno-beneficios{
-               padding-top: 0!important;
-               max-width: 50%!important;
+
+            .nav-link{
+                padding-left: 1em!important;
             }
+            
+            .texto-banner-beneficios{
+                padding-left: 5em;
+                padding-bottom: 10em;
+            }
+        }
+        .contorno-beneficios{
+            padding-top: 0!important;
+            max-width: 50%!important;
         }
     }
 
@@ -196,45 +126,45 @@ header{
 
         .banner-beneficios{
             padding-bottom: 12.4em!important;
+        }
 
-            .navegacao{
-                position: relative!important;
-                display: block!important;
-                width: 100%!important;
-                
-                .menu{
-                    padding-left: 1.312em!important;
-                }
-                .navbar{
-                    position: absolute;
-                    padding-left: 1.4em!important;
-                    z-index: 2!important;
-                    overflow: hidden!important;
-                }
+        .navegacao{
+            position: relative!important;
+            display: block!important;
+            width: 100%!important;
+            
+            .menu{
+                padding-left: 1.312em!important;
+            }
+            .navbar{
+                position: absolute;
+                padding-left: 1.4em!important;
+                z-index: 2!important;
+                overflow: hidden!important;
+            }
 
-                .navbar-nav{
-                    .nav-link{
-                        padding-top: 0.5em!important;
-                    }
+            .navbar-nav{
+                .nav-link{
+                    padding-top: 0.5em!important;
                 }
-                .navbar-text{
-                    position: absolute!important;
-                    padding-top: 0!important;
-                    padding-left: 1.4em!important;
-                    right: 0;
-                    z-index: 4!important;
-                }
+            }
+            .navbar-text{
+                position: absolute!important;
+                padding-top: 0!important;
+                padding-left: 1.4em!important;
+                right: 0;
+                z-index: 4!important;
+            }
 
-                .contorno-beneficios{
-                    display: none!important;
-                }
-                
-                .texto-banner-beneficios{
-                    padding-top: 26em!important;
-                    padding-left: 2em!important;
-                    h1{
-                        font-size: 20px!important;
-                    }
+            .contorno-beneficios{
+                display: none!important;
+            }
+            
+            .texto-banner-beneficios{
+                padding-top: 26em!important;
+                padding-left: 2em!important;
+                h1{
+                    font-size: 20px!important;
                 }
             }
         }

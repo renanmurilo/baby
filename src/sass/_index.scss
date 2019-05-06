@@ -17,6 +17,8 @@ header{
         overflow: hidden;
         width: 100%;
 
+        }
+
         .navegacao{
             display: flex;
             justify-content: space-between;
@@ -84,7 +86,6 @@ header{
                 }
                 
             }
-        }
     
 
         .contorno{
@@ -205,28 +206,25 @@ footer{
 
 @media screen and (max-width: 1367px){
     header{
-        .banner{
-
-            .navegacao{
-                .navbar-text{
-                    padding-right: 0!important;
-                }
-
-                .menu{
-                    padding-left: 2.312em!important;
-                }
-    
-                .nav-link{
-                    padding-left: 1em!important;
-                }
-                
-                .texto-banner{
-                    padding-right: 0;
-                }
+        .navegacao{
+            .navbar-text{
+                padding-right: 0!important;
             }
-            .contorno{
-                padding-top: 2.675em!important;
+
+            .menu{
+                padding-left: 2.312em!important;
             }
+
+            .nav-link{
+                padding-left: 1em!important;
+            }
+            
+            .texto-banner{
+                padding-right: 0;
+            }
+        }
+        .contorno{
+            padding-top: 2.675em!important;
         }
     }
 
@@ -243,44 +241,44 @@ footer{
 
         .banner{
             padding-bottom: 25.7em!important;
+        }
 
-            .navegacao{
-                position: relative!important;
-                display: block!important;
-                width: 100%!important;
-                
-                .menu{
-                    padding-left: 1.312em!important;
-                }
-                .navbar{
-                    position: absolute;
-                    padding-left: 1.4em!important;
-                    z-index: 2!important;
-                    overflow: hidden!important;
-                }
+        .navegacao{
+            position: relative!important;
+            display: block!important;
+            width: 100%!important;
+            
+            .menu{
+                padding-left: 1.312em!important;
+            }
+            .navbar{
+                position: absolute;
+                padding-left: 1.4em!important;
+                z-index: 2!important;
+                overflow: hidden!important;
+            }
 
-                .navbar-nav{
-                    .nav-link{
-                        padding-top: 0.5em!important;
-                    }
+            .navbar-nav{
+                .nav-link{
+                    padding-top: 0.5em!important;
                 }
-                .navbar-text{
-                    position: absolute!important;
-                    padding-top: 0!important;
-                    padding-left: 1.4em!important;
-                    right: 0;
-                    z-index: 4!important;
-                }
+            }
+            .navbar-text{
+                position: absolute!important;
+                padding-top: 0!important;
+                padding-left: 1.4em!important;
+                right: 0;
+                z-index: 4!important;
+            }
 
-                .contorno{
-                    display: none;
-                }
-                
-                .texto-banner{
-                    h1{
-                        padding-top:14em!important;
-                        font-size: 30px!important;
-                    }
+            .contorno{
+                display: none;
+            }
+            
+            .texto-banner{
+                h1{
+                    padding-top:14em!important;
+                    font-size: 30px!important;
                 }
             }
         }
