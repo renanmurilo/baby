@@ -74,29 +74,45 @@ header{
                     font-size: 16.97px;
                     padding-top: 3.125em;
                     padding-left: 2.125em;
+
                 }
+
             }
         
             .navbar-text{
                 padding-top: 3em;
                 padding-right: 6.875em;
-                
-                img{
-                    margin-left: 17px;
-                }
-                
+                letter-spacing: 15px; 
             }
     
 
         .contorno{
+            position: absolute;
             width: 100%;
-            padding-top: 5.675em;
+            top: 13em;
+            left: 0;
+            animation: contorno 1.5s ease 0s normal;
+            transition: all .2s ease;
+
+            @keyframes contorno {
+                0%{
+                    transform: sclaleX(0);
+                    left: -120em;
+                }
+                50%{
+                    transform: sclaleX(0.7);
+                }
+                100%{
+                    transform: scaleX(1.0);
+                }
+            }
         }
 
         .texto-banner{
             display: flex;
             justify-content: flex-end;
             padding-right: 270px;
+            padding-top: 23em;
 
             h1{
                 color: #2adae6;
@@ -105,6 +121,9 @@ header{
             }
         }
     }    
+    .active{
+        font-weight: bold;
+    }
 }
 
 #blue{
@@ -229,7 +248,9 @@ footer{
             }
         }
         .contorno{
-            padding-top: 2.675em!important;
+            top: 12em!important;
+            left: -18em!important;
+            width: 50%!important;
         }
     }
 
@@ -238,7 +259,11 @@ footer{
             padding-left: 30.25em!important;
             padding-right: 4em!important;
         }
-    }
+
+        .paragra2{
+            padding-top: 25em!important;
+        }
+    }   
 }
 
 @media screen and (max-width: 992px){
@@ -282,7 +307,7 @@ footer{
             
             .texto-banner{
                 h1{
-                    padding-top:14em!important;
+                    padding-top:1em!important;
                     font-size: 30px!important;
                 }
             }
