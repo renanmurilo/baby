@@ -134,6 +134,7 @@ header{
     width: 100%;
 
     .col-md-12{
+        display: inline-flex;
         justify-content: center;
         line-height: 200%;
         .texto-branco{
@@ -147,25 +148,29 @@ header{
     }
 
     .paragra2{
-        justify-content: center;
         text-align: center;
-        padding-top: 25em;
+        padding-top: 22em;
         display: inline-flex;
+        padding-bottom: 5em;
         
 
         p{
             color: #000000;
             font-size: 18px;
-            padding-bottom: 8em;
+            padding-bottom: 2em;
+            padding-left: 6.5em;
+            padding-right: 6.5em;
             
             .texto-blue{
                 font-size: 24px;
                 color: #2adae6;
                 font-weight: bold;
+                margin-bottom: 2em;
             }
 
             span{
-                padding: 0 0.4em;
+                font-size: 14px;
+                letter-spacing: 2.5px;
             }
         }
 
@@ -204,7 +209,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 1367px){
+@media screen and (max-width: 1680px){
     header{
         .navegacao{
             .navbar-text{
@@ -291,31 +296,36 @@ footer{
 
             p{
                 padding-left: 2em!important;
-                font-size: 15px!important;
+                font-size: 14px!important;
             }
         }
     }
 
     #branco{
+        opacity: 0.9!important;
         .texto-branco{
             padding-left: 2em!important;
             padding-right: 0!important;
-            font-size: 12px!important;
+            font-size: 14px!important;
             padding-top: 15em!important;
         }
 
         .paragra2{
-            padding-top: 10em!important;
+            padding-top: 12em!important;
             padding-left: 2em!important;
+           
             p{
-                font-size: 9px!important;
+                font-size: 14px!important;
+                padding-left: 0!important;
+                padding-right: 0!important;
+                line-height: 180%!important;
 
                 .texto-blue{
-                    font-size: 18px!important;
+                    font-size: 16px!important;
                 }
 
                 span{
-                    padding: 0 0!important;
+                    font-size:14px!important;
                 }
             }
         }
