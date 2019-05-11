@@ -92,6 +92,7 @@ header{
     .contorno{
         position: absolute;
         width: 100%;
+        top: 13em;
 
         animation: contorno 1.5s ease 0s normal;
         transition: all .2s ease;
@@ -130,44 +131,43 @@ header{
 #blue{
     background: #2adae6;
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-
-    .col-md-12{
-        justify-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+  
+    .texto-blue{
         text-align: center;
-        padding-top: 20.3125em;
-        padding-bottom: 20.3125em;
-    }
-
-    p{
-        color: #ffffff;
-        font-size: 23px;
+        flex-wrap: wrap;
+        p{
+            color: #ffffff;
+            font-size: 23px;
+        }
     }
 }
 
 #branco{
     position: relative;
     background-image:url('../images/home/img1.png') ;
-    margin-top:  5em;
+    margin-top: 5em; 
     background-repeat: no-repeat;
     background-position: top center;
-    width: 100%;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
-    .col-md-12{
-        display: inline-flex;
-        justify-content: center;
-        line-height: 200%;
         .texto-branco{
-            padding-left: 60.25em;
-            padding-right: 10em;
-            padding-top: 11em;
+            display: flex;
+            max-width: 550px;
+            flex-wrap: wrap;
+            line-height: 200%;
             color: #000000;
             font-size: 18px;
             text-align: justify;
+
         }
-    }
 
     .paragra2{
         text-align: center;
@@ -229,144 +229,4 @@ footer{
            }
         }
     }
-}
-
-@media screen and (max-width: 1680px){
-    header{
-        .navegacao{
-            .navbar-text{
-                padding-right: 0!important;
-            }
-
-            .menu{
-                padding-left: 2.312em!important;
-            }
-
-            .nav-link{
-                padding-left: 1em!important;
-            }
-            
-            .texto-banner{
-                padding-right: 0;
-            }
-        }
-        .contorno{
-            top: 12em!important;
-            left: -18em!important;
-            width: 50%!important;
-        }
-    }
-
-    #branco{
-        .texto-branco{
-            padding-left: 30.25em!important;
-            padding-right: 4em!important;
-        }
-
-        .paragra2{
-            padding-top: 25em!important;
-        }
-    }   
-}
-
-@media screen and (max-width: 992px){
-    header{
-
-        .banner{
-            padding-bottom: 25.7em!important;
-        }
-
-        .navegacao{
-            position: relative!important;
-            display: block!important;
-            width: 100%!important;
-            
-            .menu{
-                padding-left: 1.312em!important;
-            }
-            .navbar{
-                position: absolute;
-                padding-left: 1.4em!important;
-                z-index: 2!important;
-                overflow: hidden!important;
-            }
-
-            .navbar-nav{
-                .nav-link{
-                    padding-top: 0.5em!important;
-                }
-            }
-            .navbar-text{
-                position: absolute!important;
-                padding-top: 0!important;
-                padding-left: 1.4em!important;
-                right: 0;
-                z-index: 4!important;
-            }
-
-            .contorno{
-                display: none;
-            }
-            
-            .texto-banner{
-                h1{
-                    padding-top:1em!important;
-                    font-size: 30px!important;
-                }
-            }
-        }
-    }
-
-    #blue{
-        .col-md-12{
-            padding-top: 8.3125em!important;
-            padding-bottom: 8.3125em!important;
-
-            p{
-                padding-left: 2em!important;
-                font-size: 14px!important;
-            }
-        }
-    }
-
-    #branco{
-        opacity: 0.9!important;
-        .texto-branco{
-            padding-left: 2em!important;
-            padding-right: 0!important;
-            font-size: 14px!important;
-            padding-top: 10em!important;
-        }
-
-        .paragra2{
-            padding-top: 15em!important;
-            padding-left: 2em!important;
-           
-            p{
-                font-size: 14px!important;
-                padding-left: 0!important;
-                padding-right: 0!important;
-                line-height: 180%!important;
-
-                .texto-blue{
-                    font-size: 16px!important;
-                }
-
-                span{
-                    font-size:14px!important;
-                }
-            }
-        }
-    }
-
-    footer{
-        .row{
-            flex-wrap: nowrap!important;
-        }
-
-        .menu{
-            padding-left: 1.312em!important;
-        }
-    }
-
 }
