@@ -1,69 +1,76 @@
-header{
+#banner-metodologia{
     position: relative;
-    width: 100%;
+    background-image:url('../images/metodologia/banner.jpg') ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow: hidden;
+    padding-bottom: 30.5em!important;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 
-    .banner-metodologia{
-        position: relative;
-        background-image:url('../images/metodologia/banner.jpg') ;
-        background-repeat: no-repeat;
-        background-position: top right;
-        overflow: hidden;
-        padding-bottom: 19em!important;
-        max-width: 100%;
+
+    .contorno-metodologia{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 18em;
     }
-    
 
-        .contorno-metodologia{
-            position: absolute;
-            width: 100%;
-            top: 8em;
+    .texto-banner-metodologia{       
+        
+        text-align: justify;
+        padding-top: 18.75em;
+        padding-left: 32em;
+
+        p{
+            max-width: 540px;
+            font-size: 15px;
+            line-height: 200%;
         }
-
-        .texto-banner-metodologia{
-            display: inline-block;
-            padding-left: 29.25em;
-            padding-top: 20.3125em;
-            text-align: justify;
-            padding-right: 1em;
-           
-
-            p{
-                font-size: 14px;
-                font-weight: bold;
-                line-height: 180%;
-            }
-        } 
+    } 
 }
 
 #blue-metodologia{
     background: #2adae6;
     display: flex;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
-    .col-md-12{
-        justify-content: center;
-        padding-top: 8.3125em;
-        padding-bottom: 4.3125em;
-        padding-left: 9em;
-        padding-right: 9em;
-    }
+    .texto-metodologia{
+        padding-top: 13.375em;
+        text-align: center;
+        padding-bottom: 16em;
+     
+        h2{
+            font-size: 51px;
+            color: #ffffff;
 
-    p{
-        text-align: justify;
-        color: #ffffff;
-        font-size: 17px;
-        padding-bottom: 3em;
-        padding-left: 15em;
-        padding-right: 15em;
+            span{
+                font-size: 91px;
+                color: #ffffff;
+            }
+        }
+        p{
+            padding-top: 3em;
+            font-size: 17px;
+            color: #ffffff;
+            max-width: 690px;
+            line-height: 200%;
+        }
+
     }
 }
 
-#metodologia{
+#branco{
     position: relative;
     width: 100%;
     background: #ffffff;
-    padding-bottom: 3.3125em;
-    padding-top: 3.3125em;
+    padding-bottom: 3em!important;
+    padding-top: 0!important;
     display: flex;
 
     .col-md-12{
@@ -90,60 +97,40 @@ header{
     }
 }
 
-@media screen and (max-width: 1680px){
-    header{
-        .navegacao{
-            .texto-banner-fundadora{
-                padding-left: 9.25em!important;
-                padding-right: 0!important;
-            } 
-        }
-    }
-
-    #blue-fundadora{
-    
-        p{
-            padding-left: 8em!important;
-            padding-right: 8em!important;
-        }
-    }
-
-}
 
 @media screen and (max-width: 992px){
-    header{
+    #banner-metodologia{
+        padding-bottom: 14em!important;
 
-        .banner-fundadora{
-            padding-bottom: 1.5em!important;
+        .contorno-metodologia{
+            display: none!important;
         }
-        .navegacao{
-            .contorno-fundadora{
-                display: none!important;
+        .texto-banner-metodologia{
+            padding-left: 2em!important;
+            padding-top: 30em!important;
+
+            p{
+                max-width: 400px!important;
+            }
+        }
+    }
+
+    #blue-metodologia{
+
+        .texto-metodologia{
+            h2{
+                font-size:31px!important;
+
+                span{
+                    font-size: 55px!important;
+                }
             }
 
-            .texto-banner-fundadora{
-                padding-left: 2.25em!important;
-                padding-top: 40.3125em!important;
-                h1{
-                    font-size: 52px!important;
-                }
-            } 
+            p{
+                line-height: 150%!important;
+            }
         }
     }
-
-    #blue-fundadora{
-
-        .col-md-12{
-            padding-left: 2em!important;
-            padding-right: 2em!important;
-            padding-top: 4.3125em!important;
-        }
     
-        p{
-            padding-left: 0em!important;
-            padding-right: 0em!important;
-            font-size: 12px!important;
-            padding-bottom: 1em!important;
-        }
-    }
 }
+

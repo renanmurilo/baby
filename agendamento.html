@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+   <header>
         <div class="row col-md-12 navegacao">
             <div class="menu">
                 <table>
@@ -61,7 +61,7 @@
                             <a class="nav-link" href="eventos.html">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Agendamentos</a>
+                            <a class="nav-link" href="agendamento.html">Agendamentos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
@@ -70,51 +70,83 @@
                 </div>
             </nav>
             <div class="navbar-text">
-                <a href="https://www.instagram.com/babyologybr" target="_blank"><img src="src/assets/images/home/insta.png" alt=""></a>
-                <a href="https://api.whatsapp.com/send?phone=5511994206707" target="_blank"><img src="src/assets/images/home/whats.png" alt=""></a>
+                <a href="https://www.instagram.com/babyologybr" target="_blank"><img
+                        src="src/assets/images/home/insta.png" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=5511994206707" target="_blank"><img
+                        src="src/assets/images/home/whats.png" alt=""></a>
             </div>
         </div>
     </header>
 
-    <section id="banner">
-        <div class="contorno">
-            <img src="src/assets/images/home/contorno.png" alt="">
+    <section id="branco-agendamento">
+        <div class="texto-form-agendamento">
+            <p>Para agendar, preencha os campos abaixo que responderemos em seguida:( ou entre em contato via <a href="https://api.whatsapp.com/send?phone=5511994206707" target="_blank">whatsapp</a> )</p>
+            <form action="">
+                <div class="form-group">
+                    <label>Nome completo do Responsável/Cuidador ( Obrigatório )</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Nome completo do bebê ( Obrigatório )</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group selector">
+                    <label>Idade do bebê ( Obrigatório )</label>
+                    <select class="form-control" id="azul">
+                        <option></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="form-group selector direita">
+                    <label class="esquerda">Serviço de interesse ( Obrigatório )</label>
+                    <select class="form-control" id="azul">
+                        <option></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Celular ( Obrigatório )</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>E-mail ( Obrigatório )</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Observação / Comentário </label>
+                    <textarea class="form-control" rows="7" id=""></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
         </div>
-
-        <div class="banner-texto">
-            <h1 class="animated fadeInRight">A new way<br>of thinking about<br> child development</h1>
-        </div>
-    </section>
-
-    <section id="blue">
-        <div class="texto-blue">
+        <div class="texto-agendamento">
+           
             <p>
-                A <b>BabyOlogy</b> nasceu para transformar o olhar das famílias a respeito<br>
-                da importância do <b>desenvolvimento infantil</b>, desde o momento em que outro<br>
-                nascimento muito mais importante também acontece: <b>o de seus bebês.</b>
+                Horário:<br>
+                Seg - Sex <b>08:00h - 18:00h</b><br>
+                Sáb . Dom e Feriado <b>Fechado</b><br>
+                
+                Telefone: (11) <b>2476.7858</b> ou <b>99420.6707</b><br/>
+                
+                E-mail: <b>contato@babyology.com.br</b><br>
+                
+                Rua Alvorada, 1289 - Vila Olímpia.<br>
+                Conjunto 1009 <br>
+                
+                ou digite no waze: <b>BabyOlogy ;)</b>                         
             </p>
         </div>
     </section>
 
-    <section id="branco">
-        <div class="texto-branco">
-            <p>
-                 Inserida nesse contexto surgiu a <b>BabyOlogy</b>, movida exatamente pelo que de fato move a todos
-                    nós: o próprio movimento!<br><br>
-                    Abrimos as portas de nosso espaço para receber famílias dispostas a desenvolver uma nova forma de
-                    pensar sobre o <b>desenvolvimento infantil</b>, garantindo decisões de forma <b>consciente</b> a
-                    partir do nosso compromisso de favorecer o desenvolvimento do bebê em todo o seu <b>potencial como
-                        ser humano.</b> <br><br>
-                    As famílias que frequentam nosso espaço são incentivadas a acender a luz por trás dos serviços que
-                    já oferecemos aqui – o bebê experimenta o Baby Float e a Massagem Psicomotora e/ou o Baby Move,
-                    enquanto a família atinge consciência de embasamento cientifico e se sente <b>empoderada
-                        tecnicamente</b> para desempenhar plenamente seu papel na formação e condução de um ser.
-            </p>
-        </div>
-    </section>
 
-   
-    <footer>
+
+    <footer id="branco">
         <div class="row col-md-12">
             <div class="row col-md-6 menu">
                 <table>
@@ -126,23 +158,24 @@
                             ology
                         </td>
                         <td>
-                            <img src="src/assets/images/home/icon-footer.png" alt="">
+                            <img src="src/assets/images/home/icon.png" alt="">
                         </td>
                     </tr>
                 </table>
             </div>
             <div class="row col-md-6 icons">
-                <a href="https://www.instagram.com/babyologybr" target="_blank"><img src="src/assets/images/home/insta-footer.png" alt=""></a>
-                <a href="https://api.whatsapp.com/send?phone=5511994206707" target="_blank"><img src="src/assets/images/home/whats-footer.png" alt=""></a>
+                <a href="https://www.instagram.com/babyologybr" target="_blank"><img
+                        src="src/assets/images/home/insta.png" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=5511994206707" target="_blank"><img
+                        src="src/assets/images/home/whats.png" alt=""></a>
             </div>
         </div>
     </footer>
 
 
     <script src="src/assets/js/jquery.min.js"></script>
-    <script src="src/assets/js/bootstrap.min.js"></script>
     <script src="src/assets/js/popper.min.js"></script>
+    <script src="src/assets/js/bootstrap.min.js"></script>
     <script src="src/assets/js/main.js"></script>
 </body>
-
 </html>

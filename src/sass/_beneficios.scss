@@ -1,33 +1,29 @@
-header{
+#banner-beneficios{
     position: relative;
-    width: 100%;
+    background-image:url('../images/beneficios/banner.png') ;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-bottom: 10em!important;
+    overflow: hidden;
+    max-width: 100%;
 
-    .banner-beneficios{
-        position: relative;
-        background-image:url('../images/beneficios/banner.png') ;
-        background-repeat: no-repeat;
-        background-position: top right;
-        overflow: hidden;
-        max-width: 100%;
-    }
-    
 
-        .contorno-beneficios{
-            width: 100%;
-            padding-top: 4.5em;
-            max-width: 46%;
+    .texto-banner-beneficios{
+        display: inline-flex;
+        padding-left: 16.8em;
+        padding-top: 22em;
+        h1{
+            color: #2adae6;
+            font-size: 36px;
+            font-weight: normal;
         }
+    }
 
-        .texto-banner-beneficios{
-            display: inline-flex;
-            padding-left: 16.8em;
-            padding-bottom: 2em;
-            h1{
-                color: #2adae6;
-                font-size: 36px;
-                font-weight: normal;
-            }
-        } 
+    .contorno-beneficios{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }
 
 #blue-beneficios{
@@ -81,33 +77,18 @@ header{
 }
 
 
-@media screen and (max-width: 1680px){
-    header{
-
-        .navegacao{
-            .navbar-text{
-                padding-right: 0!important;
-            }
-
-            .menu{
-                padding-left: 2.312em!important;
-            }
-
-            .nav-link{
-                padding-left: 1em!important;
-            }
-            
-            .texto-banner-beneficios{
-                padding-left: 5em;
-                padding-bottom: 10em;
-            }
-        }
+@media screen and (max-width: 1680px){  
+    #banner-beneficios{
+        padding-bottom: 22em!important;
         .contorno-beneficios{
-            padding-top: 0!important;
-            max-width: 50%!important;
+            top: 11em!important;
+        }
+
+        .texto-banner-beneficios{
+            padding-left: 2.0em!important;
+            padding-top: 15em!important;
         }
     }
-
     #branco-beneficios{
         .texto-h1{
             padding-left: 2em;
@@ -121,53 +102,25 @@ header{
 }
 
 @media screen and (max-width: 992px){
-    header{
 
-        .banner-beneficios{
-            padding-bottom: 12.4em!important;
+    #banner-beneficios{
+        padding-bottom: 20.4em!important;
+
+        .contorno-beneficios{
+            display: none!important;
+            top: 10em!important;
+            right: 0!important;
         }
-
-        .navegacao{
-            position: relative!important;
-            display: block!important;
-            width: 100%!important;
-            
-            .menu{
-                padding-left: 1.312em!important;
-            }
-            .navbar{
-                position: absolute;
-                padding-left: 1.4em!important;
-                z-index: 2!important;
-                overflow: hidden!important;
-            }
-
-            .navbar-nav{
-                .nav-link{
-                    padding-top: 0.5em!important;
-                }
-            }
-            .navbar-text{
-                position: absolute!important;
-                padding-top: 0!important;
-                padding-left: 1.4em!important;
-                right: 0;
-                z-index: 4!important;
-            }
-
-            .contorno-beneficios{
-                display: none!important;
-            }
-            
-            .texto-banner-beneficios{
-                padding-top: 26em!important;
-                padding-left: 2em!important;
-                h1{
-                    font-size: 20px!important;
-                }
+        
+        .texto-banner-beneficios{
+            padding-top: 30em!important;
+            padding-left: 2em!important;
+            h1{
+                font-size: 20px!important;
             }
         }
     }
+
 
     #blue-beneficios{
     

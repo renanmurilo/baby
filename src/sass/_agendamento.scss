@@ -1,0 +1,143 @@
+
+
+#branco-agendamento{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    line-height: 200%;
+    margin-top: 14em;
+
+    .texto-form-agendamento{
+        margin-right: 5em;
+        margin-left: 5em;
+        max-width: 645px;
+
+        p{
+            color: #2adae6;
+            font-weight: bold;
+            font-size: 18px;
+
+            a{
+                text-decoration: none;
+                color: #2adae6;
+            }
+        }
+
+        form{
+
+            label{
+                color:#2adae6;
+            }
+          
+            .form-control{
+                border-radius: 0px;
+                border: 1px solid #2adae6;
+            }
+
+            .selector{
+                width: 300px;
+                display: inline-block;
+                
+            }
+            .direita{
+                margin-left: 2.6em;
+            }
+
+            #azul{
+                background: #2adae6;
+                color: #ffffff;
+            }
+
+            #azul:hover{
+                background: #2adae6;
+            }
+            
+            button{
+                border-radius: 0px;
+                background: #2adae6;
+                color: #ffffff;
+                width: 150px;
+            }
+        }
+    }
+
+    .texto-agendamento{
+        margin-left: 5em;
+        margin-right: 5em;
+        max-width: 450px;
+        padding-top: 7em;
+        padding-bottom: 5em;
+
+        p{
+            font-size: 24px;
+            line-height: 200%;
+
+        }
+    }
+}
+
+#branco{
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    padding-bottom: 3em!important;
+    padding-top: 0!important;
+    display: flex;
+
+    .col-md-12{
+        align-items: center;
+
+        .menu{
+            padding-left: 4.312em;
+    
+            td{
+                border: 1px solid #2adae6;
+                color: #2adae6;
+                padding: 7px 14px;
+                padding-top: 4px;
+            }
+        }
+    
+        .icons{
+           justify-content: flex-end; 
+
+           img{
+               margin-left: 17px;
+           }
+        }
+    }
+}
+
+@media screen and (max-width: 1680px){  
+    
+#branco-agendamento{
+
+        .texto-form-agendamento{
+            margin-right: 3em!important;
+            margin-left: 3em!important;
+        }
+
+        .texto-agendamento{
+            margin-left: 3em!important;
+            margin-right: 3em!important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    #branco-agendamento{
+
+       form{
+        
+        .esqeurda{
+            margin: 0!important;
+        }
+        .selector{
+            display: inline!important;
+            
+        }
+       }
+    }
+}
