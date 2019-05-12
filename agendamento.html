@@ -49,9 +49,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link" data-toggle="dropdown" href="">Serviços</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Baby Move</a>
-                                <a class="dropdown-item" href="#">Baby Float</a>
-                                <a class="dropdown-item" href="#">Massagem psicomotora</a>
+                                <a class="dropdown-item" href="baby-move.html">Baby Move</a>
+                                <a class="dropdown-item" href="baby-float.html">Baby Float</a>
+                                <a class="dropdown-item" href="massagem-psicomotora.html">Massagem psicomotora</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -61,10 +61,10 @@
                             <a class="nav-link" href="eventos.html">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="agendamento.html">Agendamentos</a>
+                            <a class="nav-link" href="agendamento.html" id="agendamento">Agendamentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="contato.html">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -176,6 +176,10 @@
     <script src="src/assets/js/jquery.min.js"></script>
     <script src="src/assets/js/popper.min.js"></script>
     <script src="src/assets/js/bootstrap.min.js"></script>
-    <script src="src/assets/js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+           $('#agendamento').addClass('active');
+         });
+    </script>
 </body>
 </html>
