@@ -183,7 +183,7 @@ header{
         p{
             color: #000000;
             font-size: 18px;
-            padding-bottom: 2em;
+            padding-bottom: 1em;
             padding-left: 6.5em;
             padding-right: 6.5em;
             
@@ -200,18 +200,15 @@ header{
             }
         }
 
-        [data-anime]{
+        .animated{
             opacity: 0;
+            transform: translate3d(0,-50px, 0);
             transition: .3s;
         }
 
-        [data-anime="bottom"]{
-            transform: translate3d(0, -50px, 0);
-        }
-
-        [data-anime].anime{
+        .fadeInUp{
             opacity: 1;
-            transform: translate3d(0, 0, 0, 0);
+            transform: translate3d(0,0,0);
         }
 
     }

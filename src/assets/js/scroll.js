@@ -1,36 +1,41 @@
-const target = document.querySelectorAll('[data-anime]');
-const animationClass = 'anime';
-
-function animeScroll(){
-    const windowTop = window.pageYOffset + ((window.innerHeigth * 3) / 4);
-    target.forEach(function(element){
-        if((windowTop) > element.offsetTop){
-            element.classList.add(animationClass);
-        }else{
-            element.classList.remove(animationClass);
-        }
-    })
-}
-
-if(target.length) {
-
-    window.addEventListener('scroll', function(){
-        animeScroll();
-        console.log();
-    })
-}
+// Debounce do Lodash
+debounce = function(func, wait, immediate) {
+	var timeout;
+	return function() {
+		var context = this, args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+};
 
 
-let below = false
-window.onscroll = () => {
-    
-    const windowTop = window.pageYOffset + ((window.innerHeigth * 3) / 4);
+(function(){
+	var $target = $('.animated'),
+			animationClass = 'fadeInUp',
+			offset = $(window).height() * 3/4;
 
-    if((windowTop) > element.offsetTop){
-        
+	function animeScroll() {
+		var documentTop = $(document).scrollTop();
 
-        bellow = true;
-        $('#Up').addClass('animeted fadeInUp');
-        console.log()
-    }
-}
+		$target.each(function(){
+			var itemTop = $(this).offset().top;
+			if (documentTop > itemTop - offset) {
+				$(this).addClass(animationClass);
+			} else {
+				$(this).removeClass(animationClass);
+			}
+		});
+	}
+
+	animeScroll();
+
+	$(document).scroll(debounce(function(){
+		animeScroll();
+	}, 0));
+})();
