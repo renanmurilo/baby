@@ -128,16 +128,29 @@
 
 @media screen and (max-width: 992px){
     #branco-agendamento{
-
+        margin-top: 28em!important;
        form{
         
         .esqeurda{
             margin: 0!important;
         }
         .selector{
-            display: inline!important;
+            display: block!important;
             
         }
+
+        .direita{
+            margin-left: 0!important;
+        }
        }
+
+       .texto-agendamento{
+
+        p{
+            font-size: 17px!important;
+            line-height: 180%!important;
+
+        }
+    }
     }
 }

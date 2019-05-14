@@ -9,14 +9,6 @@
     display: flex;
     justify-content: center;
 
-
-    .contorno-metodologia{
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 18em;
-    }
-
     .texto-banner-metodologia{       
         
         text-align: justify;
@@ -100,17 +92,14 @@
 
 @media screen and (max-width: 992px){
     #banner-metodologia{
-        padding-bottom: 14em!important;
+        padding-bottom: 5em!important;
 
-        .contorno-metodologia{
-            display: none!important;
-        }
         .texto-banner-metodologia{
-            padding-left: 2em!important;
+            padding-left: 0em!important;
             padding-top: 30em!important;
 
             p{
-                max-width: 400px!important;
+                max-width: 315px!important;
             }
         }
     }

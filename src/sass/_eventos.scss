@@ -9,13 +9,6 @@
     display: flex;
     justify-content: center;
 
-
-    .contorno-eventos{
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 2em;
-    }
 }
 
 #branco-eventos{
@@ -80,16 +73,6 @@
            img{
                margin-left: 17px;
            }
-        }
-    }
-}
-
-
-@media screen and (max-width: 992px){
-    #banner-eventos{
-
-        .contorno-eventos{
-            display: none!important;
         }
     }
 }

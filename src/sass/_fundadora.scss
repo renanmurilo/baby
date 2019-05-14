@@ -7,13 +7,6 @@
     padding-bottom: 19em!important;
     max-width: 100%;
 
-
-    .contorno-fundadora{
-        position: absolute;
-        width: 100%;
-        top: 8em;
-    }
-
     .texto-banner-fundadora{
         display: inline-block;
         padding-left: 29.25em;
@@ -30,7 +23,6 @@
 
         p{
             font-size: 14px;
-            font-weight: bold;
             line-height: 180%;
         }
     } 
@@ -114,15 +106,11 @@
     #banner-fundadora{
         padding-bottom: 18.5em!important;
 
-        .contorno-fundadora{
-            display: none!important;
-        }
-
         .texto-banner-fundadora{
             padding-left: 2.25em!important;
             padding-top: 25.3125em!important;
             h1{
-                font-size: 52px!important;
+                font-size: 30px!important;
             }
             p{
                 color: #fff!important;
@@ -134,14 +122,14 @@
 
         .col-md-12{
             padding-left: 2em!important;
-            padding-right: 2em!important;
+            padding-right: 0em!important;
             padding-top: 4.3125em!important;
         }
     
         p{
             padding-left: 0em!important;
             padding-right: 0em!important;
-            font-size: 12px!important;
+            font-size: 14px!important;
             padding-bottom: 1em!important;
         }
     }

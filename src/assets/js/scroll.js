@@ -19,3 +19,18 @@ if(target.length) {
         console.log();
     })
 }
+
+
+let below = false
+window.onscroll = () => {
+    
+    const windowTop = window.pageYOffset + ((window.innerHeigth * 3) / 4);
+
+    if((windowTop) > element.offsetTop){
+        
+
+        bellow = true;
+        $('#Up').addClass('animeted fadeInUp');
+        console.log()
+    }
+}
