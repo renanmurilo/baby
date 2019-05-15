@@ -104,16 +104,19 @@
 @media screen and (max-width: 992px){
 
     #banner-fundadora{
-        padding-bottom: 18.5em!important;
+        background-image: url('../images/fundadora/banner-mobile.jpg')!important;
+        padding-bottom: 2.5em!important;
 
         .texto-banner-fundadora{
             padding-left: 2.25em!important;
-            padding-top: 25.3125em!important;
+            padding-top: 27.3125em!important;
             h1{
                 font-size: 30px!important;
             }
+
             p{
-                color: #fff!important;
+                font-size: 12px;
+                text-align: left!important;
             }
         } 
     }
@@ -131,6 +134,7 @@
             padding-right: 0em!important;
             font-size: 14px!important;
             padding-bottom: 1em!important;
+            text-align: left!important;
         }
     }
 }

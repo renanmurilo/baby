@@ -96,10 +96,11 @@
 
         .texto-banner-metodologia{
             padding-left: 0em!important;
-            padding-top: 30em!important;
+            padding-top: 12em!important;
 
             p{
                 max-width: 315px!important;
+                text-align: left!important;
             }
         }
     }
@@ -107,8 +108,10 @@
     #blue-metodologia{
 
         .texto-metodologia{
+            padding-bottom: 3em!important;
+            padding-top: 3.375em!important;
             h2{
-                font-size:31px!important;
+                font-size:30px!important;
 
                 span{
                     font-size: 55px!important;
@@ -117,6 +120,8 @@
 
             p{
                 line-height: 150%!important;
+                text-align: left!important;
+                max-width: 320px!important;
             }
         }
     }
