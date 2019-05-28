@@ -59,12 +59,6 @@
                 color: #ffffff;
                 width: 150px;
             }
-            .wpcf7-submit {
-                border-radius: 0px;
-                background: #2adae6;
-                color: #ffffff;
-                width: 150px; 
-            }
         }
     }
 
@@ -134,7 +128,7 @@
 
 @media screen and (max-width: 992px){
     #branco-agendamento{
-        margin-top: 8em!important;
+        margin-top: 28em!important;
        form{
         
         .esqeurda{
@@ -151,12 +145,11 @@
        }
 
        .texto-agendamento{
-        padding-bottom: 2em!important;
-        margin-left: 2em!important;
+
         p{
             font-size: 17px!important;
             line-height: 180%!important;
-            text-align: left!important;
+
         }
     }
     }

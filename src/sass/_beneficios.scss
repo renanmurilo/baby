@@ -14,9 +14,8 @@
         padding-top: 22em;
         h1{
             color: #2adae6;
-            font-size: 32px;
-            font-weight: 100;
-            line-height: 44px;
+            font-size: 36px;
+            font-weight: normal;
         }
     }
 }
@@ -96,15 +95,13 @@
 @media screen and (max-width: 992px){
 
     #banner-beneficios{
-        background-image:url('../images/beneficios/banner-mobile.jpg')!important;
-        padding-bottom: 21.8em!important;
+        padding-bottom: 20.4em!important;
         
         .texto-banner-beneficios{
-            padding-top: 6em!important;
+            padding-top: 30em!important;
             padding-left: 2em!important;
             h1{
-                font-size: 14px!important;
-                line-height: 180%;
+                font-size: 20px!important;
             }
         }
     }
@@ -114,8 +111,8 @@
     
         .col-md-12{
             justify-content: center;
-            padding-top: 4.3125em!important;
-            padding-bottom: 1.3125em!important;
+            padding-top: 8.3125em!important;
+            padding-bottom: 6.3125em!important;
             padding-left: 2em!important;
             padding-right: 0!important;
         }
@@ -123,13 +120,12 @@
         p{
             font-size: 14px!important;
             padding-bottom: 3em!important;
-            text-align: left!important;
         }
     }
 
     #branco-beneficios{
-        padding-top: 1.125em!important;
-        padding-bottom: 2.125em!important;
+        padding-top: 3.125em!important;
+        padding-bottom: 10.125em!important;
     
         .texto-h1{
             font-size: 30px!important;
@@ -144,7 +140,7 @@
             padding-left: 2em!important;
             padding-right: 0!important;
             padding-top: 0!important;
-            text-align: left!important;
+
         }
     }
     

@@ -16,7 +16,7 @@ debounce = function(func, wait, immediate) {
 
 
 (function(){
-	var $target = $('.animated'),
+	var $target = $('.animate'),
 			animationClass = 'fadeInUp',
 			offset = $(window).height() * 3/4;
 

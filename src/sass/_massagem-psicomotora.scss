@@ -2,6 +2,7 @@
     background-image: url('../images/servicos/banner-massagem.jpg');
     padding-bottom: 31em!important;
     background-repeat: no-repeat;
+    background-position: 100%;
     max-width: 100%;
 
     .texto-massagem {
@@ -23,17 +24,12 @@
 
 @media screen and (max-width: 992px){
     #banner-massagem{
-        background-image: url('../images/servicos/banner-massagem-mobile.jpg')!important;
-        padding-bottom: 16em!important;
+        padding-bottom: 5em!important;
+        padding-top: 14.75em!important;
 
         .texto-massagem {
-            padding-top: 5em!important;
             h1{
                 font-size: 30px!important;
-            }
-            p{
-                font-size: 10px!important;
-                text-align: left!important;
             }
         }
     }
